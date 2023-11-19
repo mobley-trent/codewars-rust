@@ -4,10 +4,9 @@
 #[allow(dead_code)]
 pub fn odd_or_even(numbers: Vec<i32>) -> String {
     let sum: i32 = numbers.iter().sum();
-    if sum % 2 == 0 {
-        "even".to_string()
-    } else {
-        "odd".to_string()
+    match sum % 2 {
+        0 => "even".to_string(),
+        _ => "odd".to_string()
     }
 }
 
