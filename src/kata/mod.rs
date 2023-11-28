@@ -4,3 +4,4 @@ pub mod find_the_divisors;
 pub mod reverse_words;
 pub mod gravity_flip;
 pub mod find_lowest_int;
+pub mod bubblesort_once;
