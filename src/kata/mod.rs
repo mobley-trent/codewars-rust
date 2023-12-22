@@ -5,3 +5,7 @@ pub mod reverse_words;
 pub mod gravity_flip;
 pub mod find_lowest_int;
 pub mod bubblesort_once;
+pub mod sum_array_singles;
+pub mod a_to_z;
+pub mod spoonerize_me;
+// pub mod string_doubles; TODO: Fix this one
