@@ -12,3 +12,4 @@ pub mod string_doubles;
 
 // 8 Kyu
 pub mod sum_array_singles;
+pub mod sum_mix;
